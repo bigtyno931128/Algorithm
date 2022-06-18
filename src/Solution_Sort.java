@@ -16,16 +16,15 @@ public class Solution_Sort {
         for (String player : participant) {
             map.put(player, map.getOrDefault(player, 0) + 1);
             // leo : 1 eden : 1 , kiki : 1
+            System.out.println(map.toString());
         }
-
 
         for (String player : completion) {
             map.put(player, map.get(player) - 1);
-
+            System.out.println(map.toString());
         }
 
         // leo : 1 eden : 0 , kiki : 0
-
         // result :  leo : 1 eden : 0 , kiki : 0  = map
 
         Iterator<Map.Entry<String, Integer>> iter = map.entrySet().iterator();
@@ -42,8 +41,8 @@ public class Solution_Sort {
     }
 
     public static void main(String[] args){
-        String[] part = {"leo", "kiki", "eden"};
-        String[] comp = {"eden", "kiki"};
+        String[] part = {"mislav", "stanko", "mislav", "ana"};
+        String[] comp = {"stanko", "ana", "mislav"};
         Solution_Sort sol = new Solution_Sort();
         System.out.println(sol.solution(part, comp));
     }
