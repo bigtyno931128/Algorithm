@@ -4,7 +4,6 @@ import java.util.Arrays;
 // 프로그래머스 - k 번째 수
 public class Pk번째수 {
 
-
     // 런타임 에러
     public int[] solution(int[] array, int[][] commands) {
 
@@ -20,4 +19,7 @@ public class Pk번째수 {
         }
         return answer;
     }
+
+
+
 }
