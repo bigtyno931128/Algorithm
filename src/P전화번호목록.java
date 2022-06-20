@@ -14,7 +14,7 @@ public class P전화번호목록 {
 
         // 2. hash 찾기
         for ( int i = 0; i < phone_book.length; i++)
-            for( int j = 0; j < phone_book[i].length(); j++)
+            for( int j = 1; j < phone_book[i].length(); j++)
                 if(map.containsKey(phone_book[i].substring(0,j)))
                     return false;
 

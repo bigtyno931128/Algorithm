@@ -1,12 +1,9 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
 //프로그래머스 -완주 하지 못한 선수
-public class Solution_Sort {
+public class P완주하지못한선수 {
 
     public String solution(String[] participant, String[] completion) {
 
@@ -43,7 +40,7 @@ public class Solution_Sort {
     public static void main(String[] args){
         String[] part = {"mislav", "stanko", "mislav", "ana"};
         String[] comp = {"stanko", "ana", "mislav"};
-        Solution_Sort sol = new Solution_Sort();
+        P완주하지못한선수 sol = new P완주하지못한선수();
         System.out.println(sol.solution(part, comp));
     }
 
