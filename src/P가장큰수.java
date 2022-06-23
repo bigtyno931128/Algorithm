@@ -10,7 +10,7 @@ public class P가장큰수 {
     // 길이가 1 일 때 , 큰수로 정렬하면 답
     // 길이가 2 일 때 , [1,2] 12,21  = 21 이 답  , [3,2] 23 32 = 32 가 답
     // 길이가 3 일 때 , [1,2,3] 123,132,213,231,312,321 = 321 이 답
-
+    // 0 만 있는 경우 원소로 0 , 00 , 000
     public String solution(int[] numbers) {
 
         String[] result = new String[numbers.length];
