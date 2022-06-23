@@ -10,7 +10,7 @@ public class MinMaxProblem {
         int minPos = 0;
         int maxPos = 0;
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 1; i < numbers.length; i++) {
 
             if (min > numbers[i]) {
                 min = numbers[i];
