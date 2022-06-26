@@ -26,6 +26,7 @@ public class Bj2217 {
             arr[i] = arr[i] * (cnt-i);
             if(max < arr[i]) max = arr[i];
         }
+
         System.out.println(max);
     }
 }
