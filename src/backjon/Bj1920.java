@@ -21,7 +21,6 @@ public class Bj1920 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
-
         // 배열은 반드시 정렬되어있어야한다.
         Arrays.sort(arr);
 
